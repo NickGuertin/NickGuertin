@@ -12,5 +12,6 @@
 
 
 [GitHub Account](https://github.com/NickGuertin)
+<br>
 [Website](https://nickguertin.netlify.com/)
 
