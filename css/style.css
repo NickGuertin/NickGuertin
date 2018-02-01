@@ -1,6 +1,15 @@
 html {
-
+color: darkslategray;
 }
 body {
   background-color: moccasin;
+}
+h1 {
+
+}
+h2 {
+
+}
+p {
+padding: 20px 20px;
 }
