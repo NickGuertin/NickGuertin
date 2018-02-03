@@ -4,15 +4,15 @@ html {
 
 }
 body {
-  background-color: moccasin;
+  background-color: slategray;
   margin-left: 15%;
   align-items: baseline;
 }
 h1 {
-color: darkslategray;
+color:
 }
 h3 {
-color: darkslategray;
+color:
 }
 p {
 margin: 0.75em 0;
@@ -26,12 +26,20 @@ nav {
   padding: 5px;
   display: inline;
 }
-.navigation > ul > li {
+.navigation > ol {
   list-style-type: none;
   display: inline;
-  padding: 5px;
+  padding: 20px;
   list-style: none;
-  border: 1px solid #e7e7e7;
+
+}
+
+
+
+footer {
+  display: inline;
+height: 50%
+
 }
 
 
