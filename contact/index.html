@@ -4,25 +4,46 @@
     <meta charset="utf-8">
     <title>Contact Page</title>
     <link type="text/css" rel="stylesheet" href="../css/style.css"/>
-    <li> <a href="../index.html">Home</a></li>
+<link type="text/css" rel="stylesheet" href="font-awesome.css"/>
+<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
   </head>
-  <body>
-    <form action="form-responses/new" method="POST">
+  <body class="contact">
 
+    <div class="container">
+    <nav class="navigation">
+  
+        <ul>
+          <li><a href="../projects/index.html">Projects</a></li>
+          <li><a href="../index.html" class="home nav-link">Home</a></li>
+          <li><a href="../blog/index.html">Blog</a></li>
+          <li><a href="../media/index.html">Media</a></li>
+          <li><a href="../contact/index.html">Contact</a></li>
+        </ul>
+    </div>
+      </nav>
+    <form action="form-responses/new" method="POST">
+<div class= "contactname">
       <input type="text" name="firstname" value="First Name" size="100" autofocus>
       <input type="text" name="lastname" value="Last Name" size="100">
+
+      <br>
+      <br>
       <input type="email" name="userEmail" placeholder="your.email@example.com">
+</div>
 <br>
 <br>
       <label>What's this message about?
+        <br>
+
         <input type="radio" name="subject" value="professional" checked><span>I'd like to hire you!</span>
         <input type="radio" name="subject" value="personal" checked><span>Personal message</span>
         <input type="radio" name="subject" value="other" checked><span>Don't know/something else</span>
       </label>
 <br>
+<br>
       <input type="checkbox" name="optin" value="trusting" checked>Subscribe me to your newsletter!
-      <input type="checkbox" name="optout" value="skeptical" disabled>Cheeky checkbox...
-
+      <input type="checkbox" name="optout" value="skeptical" disabled>No Thank You!
+<br><br>
       <label for="marketing">How did you hear about me?</label>
       <select name="marketing">
         <optgroup label="Online">
@@ -38,13 +59,22 @@
         </optgroup>
         <option value="other">Other</option>
       </select>
-
+<br>
+<br>
+<p>Send me a message:</p>
       <textarea name="user_message" rows="8" cols="40"></textarea>
 
       <input type="submit">
     </form>
     <nav>
+      <footer>
+      <h3>Connect With Me</h3>
 
+      <li><a href="https://github.com/NickGuertin"><i class="fab fa-github" title="find me on GitHub"></i></a></li>
+    <li><a href="mailto:nickguertin91@gmail.com"><i class="fas fa-envelope-square" title="Email"></i></a></li>
+    <br>
+      <a href="tel: 423-234-5678">Telephone</a>
+      </footer>
     </nav>
   </body>
 </html>

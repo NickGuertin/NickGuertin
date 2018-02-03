@@ -5,18 +5,53 @@ html {
 }
 body {
   background-color: moccasin;
+  margin-left: 15%;
+  align-items: baseline;
 }
 h1 {
 color: darkslategray;
 }
-h2 {
+h3 {
 color: darkslategray;
 }
 p {
 margin: 0.75em 0;
 width: 18em;
-
 }
+
 nav {
-
+  font-size: 1.5em;
+  font-style: normal;
+  margin: 10px;
+  padding: 5px;
+  display: inline;
 }
+.navigation > ul > li {
+  list-style-type: none;
+  display: inline;
+  padding: 5px;
+  list-style: none;
+  border: 1px solid #e7e7e7;
+}
+
+
+
+
+
+
+
+/*
+ nav a {
+display: inline-block;
+margin-right: 15px;
+padding-right: 15px;
+}
+*/
+
+
+/*nav-link {
+    display: inline-block;
+    margin: 15px;
+    padding: 15px;
+}
+*/
