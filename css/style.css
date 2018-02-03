@@ -26,8 +26,9 @@ nav {
   padding: 5px;
   display: inline;
 }
-.navigation > ol {
+.navigation > ul > li {
   list-style-type: none;
+  position: sticky;
   display: inline;
   padding: 20px;
   list-style: none;
@@ -36,10 +37,15 @@ nav {
 
 
 
-footer {
+.footer {
   display: inline;
 height: 50%
 
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
 }
 
 
