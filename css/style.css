@@ -56,3 +56,7 @@ height: 50%
   max-width: 960px;
   margin: 0 auto;
 }
+
+#greeting {
+  background-color: blue;
+}
