@@ -7,4 +7,4 @@ checkName(); //repeats until a name exists
 }
 }
 checkName(); // kicks off the name-checking the first time
-alert('hello ' + name);
+alert('Hello ' + name);
