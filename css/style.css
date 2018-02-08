@@ -5,11 +5,12 @@ html {
 }
 body {
   background-color: slategray;
-  margin-left: 15%;
+  margin-left: 20%;
   align-items: baseline;
 }
 h1 {
-color:
+text-align: left;
+margin-left: 5%;
 
 }
 h3 {
@@ -28,6 +29,69 @@ nav {
   padding: 5px;
   display: inline;
 }
+^
+
+
+
+
+
+
+
+
+
+nav ul {
+  float: left;
+}
+
+nav ul li {
+  float: left;
+  list-style: none;
+  position: relative;
+}
+
+nav ul li a {
+  display: block;
+  padding: 15px 20px;
+  font-family: Helvetica;
+  text-decoration: none;
+  margin-top: -8px;
+  margin-left: -20px;
+  color: black;
+}
+
+nav ul li ul {
+display: none;
+position: absolute;
+background-color: white;
+padding: 8px 20px;
+border-radius: 0px 0px 4px 4px;
+}
+
+nav ul li:hover ul {
+display: block;
+}
+
+nav ul li ul li {
+width: 180px;
+border-radius: 4px;
+padding-top: 4px;
+
+}
+
+
+nav ul li ul li a {
+padding: 8px 20px;
+}
+
+nav ul li ul li a:hover {
+padding: 8px 20px;
+background-color: lightgrey;
+}
+^
+
+
+
+
 .fontawesome {
   font-size: 4.5em;
   color: black;
@@ -39,7 +103,7 @@ nav {
   list-style-type: none;
   position: sticky;
   display: inline;
-  padding: 20px;
+  padding: 5px;
   list-style: none;
 
 }
