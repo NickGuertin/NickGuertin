@@ -4,41 +4,57 @@ html {
 
 }
 body {
-  background-color: slategray;
+  background-color: white;
   margin-left: 20%;
   align-items: baseline;
+  font-family: Helvetica;
 }
 h1 {
 text-align: left;
-margin-left: 5%;
+margin-left: 3.5%;
+color: black;
+font-family: sans-serif;
 
+}
+h2 {
+  text-align: left;
+  padding: 4px;
+  margin-left: 3.5%;
+}
+h2 li{
+  text-align: left;
+  padding: 4px;
+  margin-left: 3.5%;
 }
 h3 {
-color:
-
+display: inline-flex;
+margin-left: 3.5%;
+list-style: none;
+font-size: 20px;
+}
+h4{
+  text-align: right;
+  font-family: Helvetica;
+  font-weight: lighter;
+  padding: inherit;
 }
 p {
-margin: 0.75em 0;
-width: 18em;
+margin-left: 5%;
+width: 23em;
+}
+img {
+  margin-left: 3.5%;
+  height: 270px;
+  width: 475px;
 }
 
 nav {
   font-size: 1.5em;
   font-style: normal;
   margin: 10px;
-  padding: 5px;
+  padding: 10px;
   display: inline;
 }
-^
-
-
-
-
-
-
-
-
-
 nav ul {
   float: left;
 }
@@ -65,6 +81,7 @@ position: absolute;
 background-color: white;
 padding: 8px 20px;
 border-radius: 0px 0px 4px 4px;
+text-align: left;
 }
 
 nav ul li:hover ul {
@@ -73,56 +90,42 @@ display: block;
 
 nav ul li ul li {
 width: 180px;
+height: 60px;
 border-radius: 4px;
-padding-top: 4px;
+padding-top: 3.5px;
 
 }
 
 
 nav ul li ul li a {
-padding: 8px 20px;
+padding: 4px 4px;
+width: 100%;
 }
 
 nav ul li ul li a:hover {
-padding: 8px 20px;
+padding: 4px;
 background-color: lightgrey;
-}
-^
-
-
-
-
-.fontawesome {
-  font-size: 4.5em;
-  color: black;
-  display: inline;
-  padding: 0%;
-}
-
-.navigation > ul > li {
-  list-style-type: none;
-  position: sticky;
-  display: inline;
-  padding: 5px;
-  list-style: none;
 
 }
-
-.header {
-  margin-top: 1.3em;
-}
-
-.footer {
-  display: inline;
-height: 50%
-
-}
-
+/* end of nav bar */
 .container {
   max-width: 960px;
-  margin: 0 auto;
+  margin: 0%;
+  text-align: left;
+  font-family:sans-serif;
 }
-
+.social > li  {
+  display: inline-block;
+  font-size: 2em;
+  padding: 8px;
+}
+/* target font from fontawesome */
+}
+.copyright{
+  text-align: left;
+  margin-left: 20%;
+}
 #greeting {
-  background-color: blue;
+  background-color:
+  text-align: center;
 }

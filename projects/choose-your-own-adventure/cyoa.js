@@ -21,6 +21,4 @@ if(response === "yes"){
 }
  else {
     alert("M8, c'mon I'm tryna learn here.");
-} else if {
-  alert("null");
-}
+} 
