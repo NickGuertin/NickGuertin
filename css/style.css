@@ -27,7 +27,7 @@ h2 li{
   margin-left: 3.5%;
 }
 h3 {
-display: inline-flex;
+display: inline;
 margin-left: 3.5%;
 list-style: none;
 font-size: 20px;
@@ -37,6 +37,9 @@ h4{
   font-family: Helvetica;
   font-weight: lighter;
   padding: inherit;
+}
+iframe{
+  display: block;
 }
 p {
 margin-left: 5%;
@@ -128,4 +131,34 @@ background-color: lightgrey;
 #greeting {
   background-color:
   text-align: center;
+}
+#exercise-1 {
+  background-color: gray;
+padding: 5px;
+}
+#exercise-2 {
+  background-color: gray;
+padding: 5px;
+}
+#exercise-3 {
+  background-color: gray;
+padding: 5px;
+}
+#exercise-4 {
+  background-color: gray;
+padding: 5px;
+}
+#exercise-5 {
+  background-color: gray;
+padding: 5px;
+}
+#exercise-6 {
+  background-color: gray;
+padding: 5px;
+}
+.highlighted {
+  color: purple;
+}
+#hidden-blurb{
+  display: none;
 }

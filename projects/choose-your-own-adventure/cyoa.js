@@ -5,7 +5,7 @@ var response = prompt("You walk into Tech Town and John boldly challenges you to
 if(response === "yes"){
     response = prompt("John begins to annihilate his dogs. Are you intimidated?");
 } else if (response === "no") {
-    response = prompt("What, you got church in the morning or something?");
+    response = prompt("I don't blame you");
 } if(response === "yes"){
   response = alert("If you scared go to church");
 } else if(response === "no"){
@@ -13,12 +13,12 @@ if(response === "yes"){
 } if(response === "yes"){
   response = prompt("John begins to choke, do you preform the heimlich maneuver?");
 } else if(response === "no"){
-  response = prompt("Child's play, your no match for the master.");
+  response = prompt("Child's play, you're no match for the master.");
 } if(response === "yes"){
   response = alert("You just saved the life of a true coding gangster. Thank you for playing the game.");
 } else if(response === "no"){
   response = alert("I don't blame you, the guy didn't even like Nickleback.");
 }
  else {
-    alert("M8, c'mon I'm tryna learn here.");
-} 
+    alert("C'mon I'm tryna learn here.");
+}

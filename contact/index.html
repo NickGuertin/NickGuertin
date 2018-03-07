@@ -6,6 +6,9 @@
   <link type="text/css" rel="stylesheet" href="../css/style.css"/>
 <link type="text/css" rel="stylesheet" href="font-awesome.css"/>
 <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+<script src="http://code.jquery.com/jquery-3.3.1.min.js"
+integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+crossorigin="anonymous"></script>
   </head>
   <body class="contact">
 
@@ -27,9 +30,8 @@
       <br>
     <form action="//formspree.io/nickguertin91@gmail.com" method="POST">
 <div class= "contactname">
-      <input type="text" name="firstname" value="First Name" size="100" autofocus>
-      <input type="text" name="lastname" value="Last Name" size="100">
-
+      <input type="text" name="firstname" placeholder="First Name" size="100" autofocus>
+      <input type="text" name="lastname" placeholder="Last Name" size="100">
       <br>
       <br>
       <input type="email" name="userEmail" placeholder="your.email@example.com">
@@ -46,7 +48,7 @@
 <br>
 <br>
       <input type="checkbox" name="optin" value="trusting" checked>Subscribe me to your newsletter!
-      <input type="checkbox" name="optout" value="skeptical" disabled>No Thank You!
+      <input type="checkbox" name="optout" value="skeptical" unchecked>No Thank You!
 <br><br>
       <label for="marketing">How did you hear about me?</label>
       <select name="marketing">
@@ -81,5 +83,16 @@
       </div>
     </nav>
     <h4>&copy; Nick Guertin 2018</h4>
+  <script>
+
+    $('li a').on('mouseover', function highlight(){
+      $(this).addClass('highlighted')
+    });
+    $('li a').on('mouseleave', function highlight(){
+      $(this).removeClass('highlighted')
+    });
+
+    </script>
+
   </body>
 </html>
