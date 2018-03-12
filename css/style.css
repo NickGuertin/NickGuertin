@@ -121,13 +121,24 @@ background-color: lightgrey;
   display: inline-block;
   font-size: 2em;
   padding: 8px;
+  bottom: inherit;
+
 }
 /* target font from fontawesome */
 }
+.contactname{
+    min-width: -20px;
+    max-height: -20px;
+    padding: 5px;
+    margin: 10px;
+    font-size: 10px;
+  }
 .copyright{
   text-align: left;
   margin-left: 20%;
+  bottom: inherit;
 }
+
 #greeting {
   background-color:
   text-align: center;
