@@ -5,13 +5,14 @@ html {
 }
 body {
   background-color: white;
+  text-align: left;
   margin-left: 20%;
   align-items: baseline;
   font-family: Helvetica;
 }
 h1 {
 text-align: left;
-margin-left: 3.5%;
+margin-left: 5.5%;
 color: black;
 font-family: sans-serif;
 
@@ -26,11 +27,26 @@ h2 li{
   padding: 4px;
   margin-left: 3.5%;
 }
+h2.blog{
+  text-align: left;
+float: left;
+  padding: 20px;
+  margin-left: 200px;
+  border-width: 20px;
+}
 h3 {
 display: inline;
 margin-left: 3.5%;
 list-style: none;
 font-size: 20px;
+}
+/*h3.one{
+  padding: 10px;
+
+}*/
+h3.blog{
+  padding: 10px;
+  float: center;
 }
 h4{
   text-align: right;
@@ -45,10 +61,26 @@ p {
 margin-left: 5%;
 width: 23em;
 }
+p.one{
+  font-family:serif;
+  text-align: center;
+  font-size: 18px;
+  padding: 10px;
+  word-spacing: 0.1em;
+}
+p.blog{
+  word-spacing: 0.1em;
+  padding: 10px;
+  font-size: 20px;
+}
+p.author{
+  font-family: serif;
+
+}
 img {
-  margin-left: 3.5%;
-  height: 270px;
-  width: 475px;
+  margin-left: 4%;
+  height: 300px;
+  width: 450px;
 }
 
 nav {
@@ -118,26 +150,31 @@ background-color: lightgrey;
   font-family:sans-serif;
 }
 .social > li  {
-  display: inline-block;
+  display: inline;
   font-size: 2em;
-  padding: 8px;
-  bottom: inherit;
+  padding: 6px;
+  text-align: left;
+}
+.experience {
+  display: inline;
 
 }
-/* target font from fontawesome */
-}
-.contactname{
-    min-width: -20px;
-    max-height: -20px;
-    padding: 5px;
-    margin: 10px;
-    font-size: 10px;
-  }
-.copyright{
+.experience li {
+  border-color: black;
+  border-width: 2px;
+  padding: 2px;
   text-align: left;
-  margin-left: 20%;
-  bottom: inherit;
 }
+.copyright{
+  text-align: right;
+  bottom: auto;
+}
+footer{
+  background-color: white;
+}
+
+
+
 
 #greeting {
   background-color:
