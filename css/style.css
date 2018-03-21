@@ -10,6 +10,9 @@ body {
   align-items: baseline;
   font-family: Helvetica;
 }
+body.rps{
+  background-color: lightgrey;
+}
 h1 {
 text-align: left;
 margin-left: 5.5%;
@@ -29,10 +32,11 @@ h2 li{
 }
 h2.blog{
   text-align: left;
-float: left;
+  float: left;
   padding: 20px;
   margin-left: 200px;
   border-width: 20px;
+
 }
 h3 {
 display: inline;
@@ -54,6 +58,7 @@ h4{
   font-weight: lighter;
   padding: inherit;
 }
+
 iframe{
   display: block;
 }

@@ -12,7 +12,6 @@ var gameRound = function(){
     } else if (rng > 0.33) {
       computerChoice = "S";
     }
-
     if(computerChoice !== userChoice){
       if(computerChoice === "R"){
         if (userChoice === "S") {
@@ -26,12 +25,18 @@ var gameRound = function(){
         }else {
           alert(userWins);
         }
+      } else if (computerChoice === "S"){
+        if(userChoice === "P"){
+          alert(computerWins);
+        }else {
+          alert(userWins);
+        }
       }
     } else {
       alert('Tie!');
     }
 };
-while (roundCounter < 5) {
+while (roundCounter < 3) {
   gameRound();
   roundCounter++;
 }
