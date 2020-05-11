@@ -6,9 +6,9 @@
 
 + I've been skateboarding for over 16 years.
 
-+ I recently bought a motorcycle
++ I've recently gotten back into coding.
 
-+ I work as a sterile compounding pharmacy technician.
++ I work as a pharmacy technician.
 
 
 [GitHub Account](https://github.com/NickGuertin)
